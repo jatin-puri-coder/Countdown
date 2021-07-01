@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "three": "^0.129.0"
+  },
+  "name": "countdown",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
