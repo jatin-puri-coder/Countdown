@@ -6,16 +6,16 @@ body {
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /*flex-direction: column; */
+  /* align-items: center; */
   font-family: 'Jomhuria', cursive;
   margin: 0;
-}
+} 
 
 h1 {
   font-size: 8rem;
-  text-align: center;
+  justify-content: center;
+  display: flex;
   color: bisque;
   margin-bottom: -10px;
 }
@@ -24,6 +24,7 @@ h1 {
   display: flex;
   text-align: center;
   color: bisque;
+  justify-content: center;
 }
 
 .bigtext {
@@ -35,4 +36,10 @@ h1 {
 span {
   font-size: 2rem;
   font-weight: lighter;
+}
+
+.form {
+  font-size: 2rem;
+  color: rgb(196, 248, 248);
+  margin: 1rem 3rem;
 }
